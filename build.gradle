@@ -1,0 +1,11 @@
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.7'
+    compile group:'org.rundeck', name: 'rundeck-core', version: '2.7.3'
+}
